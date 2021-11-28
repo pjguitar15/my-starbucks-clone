@@ -93,6 +93,14 @@ nav {
   color: black;
 }
 
+.box {
+  padding: 50px;
+  color: white;
+  width: 80%;    
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 .box-a {
   background: #05573B;
   
@@ -101,34 +109,77 @@ nav {
   justify-content: center;  
   align-items: center;
 
-  padding: 50px;
-
-  color: white;
-
-  width: 80%;
   
-  margin: auto;
 }
 
-h1, .box-header-text {
+h1, .box-p {
   font-family: 'Open Sans';
   text-align: center;
 }
 
 .jingle-text {
   font-weight: 600;
-  letter-spacing: 5px;  
+  letter-spacing: 5px;    
+}
+
+.box-a .jingle-text {
   width: 50%;
 }
 
-.box-header-text {
+.box-p {
   margin-top: 20px;
   font-family: 'Open Sans';
-  letter-spacing: 1px;
-  width: 40%;  
+  letter-spacing: 1px;  
   font-size: 14px;
 }
 
-.box-header-text a {
+.box-a .box-p {
+  width: 40%;  
+}
+
+.box-a a {
   color: white;
+}
+
+.box-b-right a {
+  color: white;
+}
+
+.box-b {
+  background-color: #B50C28;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;   
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.box-b-left {
+  background: white;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  
+}
+
+.box-b-left img {
+  width: 80%;  
+}
+
+.box-b-right {  
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;  
+}
+
+.box-b-right .jingle-text {
+  width: 70%;
+}
+
+.box-b-right .box-p {
+  width: 70%;
+  letter-spacing: 2px;
 }
