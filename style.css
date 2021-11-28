@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+
+.navbar-container {  
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-logo {
+  color: black;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;  
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.nav-list li a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  /* border-bottom: solid black 1px; */
+}
+
+.nav-list li a:hover {
+  border-bottom: solid black 1.8px;
+}
+
+.logo-with-text {
+  display: flex;
+  align-items: center;
+}
+.logo-with-text img {
+  width: 45px;
+  height: 45px;
+  margin: 0 7px;
+}
+
+.logo-with-menu {
+  display: flex;
+}
+
+.btn {
+  padding: 7px 16px;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 17px;
+  border: 1px solid black;
+  margin: 0 5px;
+  cursor: pointer;  
+}
+
+.btn-outline-dark {
+  background-color: white;
+}
+
+.btn-outline-dark:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.box-a {
+  background: #05573B;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+
+  padding: 50px;
+
+  color: white;
+
+  width: 80%;
+  
+  margin: auto;
+}
+
+h1, .box-header-text {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.jingle-text {
+  font-weight: 600;
+  letter-spacing: 5px;  
+  width: 50%;
+}
+
+.box-header-text {
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  letter-spacing: 1px;
+  width: 40%;  
+  font-size: 14px;
+}
+
+.box-header-text a {
+  color: white;
+}
