@@ -183,3 +183,34 @@ h1, .box-p {
   width: 70%;
   letter-spacing: 2px;
 }
+
+/* Media Query */
+@media(max-width: 768px) {
+  /* medium size below */
+  /* body {
+    background-color: blue;    
+  } */
+  .box-a .jingle-text {
+    width: 100%;
+    font-size: 22px;  
+  }
+
+  .box-a .box-p {
+    width: 100%;
+  }
+
+  .box, .box-b {
+    width: 100%;
+  }
+
+  .box-b .jingle-text {
+    font-size: 18px;
+  }
+
+  .box-b .box-p {
+    width: 90%;
+    font-size: 12px;
+  }
+  
+
+}
